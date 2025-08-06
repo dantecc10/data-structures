@@ -16,3 +16,13 @@ mediante firmas			- 0.1%
 Asistencia			- 1 punto
 
 
+## Polinomios de direccionamiento
+Los polinomios de direccionamiento se tratan de buscar una posición que contiene un dato.
+
+SOn fórmulas matemáticas utilizadas para calcular la dirección absoluta (o posición en memoria) de un elemento almacenado en un arreglo, a partir de sus índices.
+
+Si nos referimos a A[2]
+Pd (A[2]) = DirA + (1 * k)
+
+Pd (A[2]) = DirA + (x - 1) k
+
