@@ -26,3 +26,32 @@ Pd (A[2]) = DirA + (1 * k)
 
 Pd (A[2]) = DirA + (x - 1) k
 
+### Polinomio de direccionamiento para vectores
+
+Pd (A[x]) = DirA + x * lt
+
+Donde:
+- DirA: Dirección inicial del arreglo
+- x: Posición correspondiente al índice del arreglo (base 0 o 1)
+- lt: Longitud del dato
+
+
+
+### Polinomio de direccionamiento para matrices
+
+Filas:
+Pd (M[i][j]) = DirM + [m * i + j] * lt
+
+Filas:
+Pd (M[i][j]) = DirM + [n * j + i] * lt
+
+
+Donde:
+- DirM: Dirección inicial de la matriz
+- i: índice de filas
+- j: índice de columnas
+- m: número de columnas
+- n: número de filas
+- lt: Longitud del dato
+
+
