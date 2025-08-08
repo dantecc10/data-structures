@@ -55,3 +55,21 @@ Donde:
 - lt: Longitud del dato
 
 
+Las estructuras de datos se clasifican en estáticas y dinámicas.
+Estáticas:
+- Arreglos
+- Variables
+- Matrices
+
+Dinámicas:
+- Listas ligadas
+
+## Pilas
+Una pila es una estructura LIFO.
+Las operaciones que se pueden realizar en una pila son:
+- Agregar elemento ```push```
+- Obtener el elemento de la cima ```peek```
+- Obtener el tamaño de la pila
+- Saber si la pila está llena
+
+
