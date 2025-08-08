@@ -68,8 +68,8 @@ Dinámicas:
 Una pila es una estructura LIFO.
 Las operaciones que se pueden realizar en una pila son:
 - Agregar elemento ```push```
-- Obtener el elemento de la cima ```peek```
+- Obtener el elemento de la cima ```pop```
+- Conocer el valor del último elemento ```peek```
 - Obtener el tamaño de la pila
 - Saber si la pila está llena
-
 
