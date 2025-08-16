@@ -1,10 +1,20 @@
 package coding.practices;
 
-public class Main {
-    int[] stack = {0, 0, 0, 0, 0, 0};
-    int start = 0, top = 0;
+public class Stack {
+    //int[] stack = {0, 0, 0, 0, 0, 0};
+    //int start = 0, top = 0;
+    private int[] stack;
+    private int start, top, size;
+
+    public Stack(){
+        size = 6;
+        stack = new int[size];
+        start = 0;
+        top = 0;
+    }
+
     public static void main(String[] args) {
-        Main stack = new Main();
+        Stack stack = new Stack();
         stack.push(1);
         stack.push(2);
         stack.push(3);
