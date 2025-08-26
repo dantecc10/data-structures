@@ -73,3 +73,5 @@ Las operaciones que se pueden realizar en una pila son:
 - Obtener el tamaño de la pila
 - Saber si la pila está llena
 
+Así tomo mis apuntes en clase, porque me da flojera escribir y porque luego los puedo abrir en sitios web con repos de código
+
